@@ -61,17 +61,11 @@
 1. В русском языке окончания слов меняются (1 участник, 2 участника), пока что давайте не обращать на это внимания.
 
 2. Переменные challenge_result, tasks_total, time_avg можно задать вручную или рассчитать. Например, для challenge_result:
-
 if score_1 > score_2 or score_1 == score_2 and team1_time > team2_time:
-
 result = ‘Победа команды Мастера кода!’
-
 elif score_1 < score_2 or score_1 == score_2 and team1_time < team2_time:
-
 result = ‘Победа команды Волшебники Данных!’
-
 else:
-
 result = ‘Ничья!’
 
 
